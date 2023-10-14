@@ -1,0 +1,53 @@
+﻿@page
+@model QuanLyHocSinh_ASP_MVC_Demo.Pages.DiemThis.IndexModel
+@{
+}
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Diem
+            </th>
+            <th>
+                NgayThi
+            </th>
+            <th>
+                MaMhNavigation
+            </th>
+            <th>
+                MaSvNavigation
+            </th>
+            <th>
+                PhongHoc
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.listDiemThi) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Diem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayThi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaMhNavigation.MaMh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSvNavigation.MaSv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhongHoc.MaPhong)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

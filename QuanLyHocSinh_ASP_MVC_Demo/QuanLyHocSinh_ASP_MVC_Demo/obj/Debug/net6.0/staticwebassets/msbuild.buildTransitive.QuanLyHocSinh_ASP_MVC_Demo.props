@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\buildMultiTargeting\QuanLyHocSinh_ASP_MVC_Demo.props" />
-</Project>

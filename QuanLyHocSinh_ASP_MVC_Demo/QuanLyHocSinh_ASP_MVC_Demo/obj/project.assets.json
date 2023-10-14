@@ -10892,19 +10892,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Admin\\.nuget\\packages\\": {}
+    "C:\\Users\\NCC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Demo_ASP_MVC\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo.csproj",
+      "projectUniqueName": "D:\\Teach\\NguyenThanh\\LessonStudent\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo.csproj",
       "projectName": "QuanLyHocSinh_ASP_MVC_Demo",
-      "projectPath": "D:\\Demo_ASP_MVC\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo.csproj",
-      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Demo_ASP_MVC\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\obj\\",
+      "projectPath": "D:\\Teach\\NguyenThanh\\LessonStudent\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo.csproj",
+      "packagesPath": "C:\\Users\\NCC\\.nuget\\packages\\",
+      "outputPath": "D:\\Teach\\NguyenThanh\\LessonStudent\\QuanLyHocSinh_ASP_MVC_Demo\\QuanLyHocSinh_ASP_MVC_Demo\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\NCC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -10972,7 +10972,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
