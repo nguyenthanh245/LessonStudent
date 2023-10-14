@@ -1,0 +1,52 @@
+﻿@model IEnumerable<QuanLyHocSinh_ASP_MVC_Demo.Models.MonHoc>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="MonHoc" asp-action="AddMonHoc">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.TenMonHoc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoTinChi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenMonHoc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SoTinChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                    @if(item.Spam == true)
+                    {
+                        <a asp-controller="MonHoc" asp-action="UpdateMonHoc" asp-route-maMonHoc="@item.MaMh">Edit</a>
+                        <a asp-controller="MonHoc" asp-action="DetailMonHoc" asp-route-maMonHoc="@item.MaMh">Details</a>
+                        <a asp-controller="MonHoc" asp-action="DeleteMonHoc" asp-route-maMonHoc="@item.MaMh">Delete</a>
+                    }
+
+                    <a asp-controller="MonHoc" asp-action="SapmMonHoc" asp-route-maMonHoc="@item.MaMh">Spam</a>
+
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

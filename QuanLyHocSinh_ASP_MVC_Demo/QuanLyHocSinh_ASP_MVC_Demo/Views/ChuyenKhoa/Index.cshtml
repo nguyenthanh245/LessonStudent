@@ -1,0 +1,77 @@
+﻿@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@model IEnumerable<QuanLyHocSinh_ASP_MVC_Demo.Models.ChuyenKhoa>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Index</h1>
+
+<p>
+    <a asp-controller="ChuyenKhoa" asp-action="AddChuyenKhoa">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaKhoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenKhoa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SoDienThoai)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaKhoa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TenKhoa)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SoDienThoai)
+                </td>
+                <td>
+                    @if (item.Spam == true)
+                    {
+                        <a asp-controller="ChuyenKhoa" asp-action="UpdateChuyenKhoa" asp-route-maChuyenKhoa="@item.MaKhoa">Edit</a> 
+                        <a asp-controller="ChuyenKhoa" asp-action="DetailChuyenKhoa" asp-route-maChuyenKhoa="@item.MaKhoa">Details</a> 
+                         <a asp-controller="ChuyenKhoa" asp-action="DeleteChuyenKhoa" asp-route-maChuyenKhoa="@item.MaKhoa">Delete</a> 
+                    }
+
+                    <a asp-controller="ChuyenKhoa" asp-action="SpamChuyenKhoa" asp-route-maChuyenKhoa="@item.MaKhoa"> Spam </a>
+                   
+                </td>
+            </tr>
+        }
+        @if (ViewBag.message != null)
+        {
+            
+            @if (ViewBag.message == 1)
+            {
+                <script>alert("Delete thanh cong");</script>
+            }else if(ViewBag.message == 3)
+            {
+                <script>alert("Add thanh cong");</script>
+            }
+            else if (@ViewBag.message == 0)
+            {
+                <script>alert("Delete ko thanh cong");</script>
+            }
+        }
+
+        
+
+    </tbody>
+</table>
+

@@ -1,0 +1,82 @@
+﻿@model IEnumerable<QuanLyHocSinh_ASP_MVC_Demo.Models.HocSinh>
+@addTagHelper *,Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<p>
+    <a asp-action="AddHocSinh" asp-controller="HocSinh" method="get">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.HoTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GioiTinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgaySinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DienThoai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaChi)
+            </th>
+            <th>
+                ChuyenKhoa
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.HoTen)
+                </td>
+                <td>
+                    @(item.GioiTinh == true ? "Nam" : "Nu")
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NgaySinh)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DienThoai)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DiaChi)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MaKhoaNavigation.TenKhoa)
+                </td>
+                <td>
+                    @if (item.Spam == true)
+                    {
+                        <a asp-controller="HocSinh" asp-action="UpdateHocSinh" asp-route-id="@item.MaSv">Edit</a>
+                        <a asp-controller="HocSinh" asp-action="DetailHocSinh" asp-route-id="@item.MaSv">Details</a>
+                        <a asp-controller="HocSinh" asp-action="DeleteHocSinh" asp-route-id="@item.MaSv">Delete</a>
+                    }
+
+                    <a asp-controller="HocSinh" asp-action="SpamHocSinh" asp-route-id="@item.MaSv">Spam</a>
+                </td>
+            </tr>
+        }
+        @if (TempData["Message"] != null)
+        {
+            <script>
+                alert('@TempData["Message"]');
+            </script>
+        }
+    </tbody>
+</table>

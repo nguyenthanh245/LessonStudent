@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QuanLyHocSinh_ASP_MVC_Demo
+build_property.RootNamespace = QuanLyHocSinh_ASP_MVC_Demo
+build_property.ProjectDir = D:\Demo_ASP_MVC\QuanLyHocSinh_ASP_MVC_Demo\QuanLyHocSinh_ASP_MVC_Demo\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Demo_ASP_MVC\QuanLyHocSinh_ASP_MVC_Demo\QuanLyHocSinh_ASP_MVC_Demo
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/ChuyenKhoa/AddChuyenKhoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuS2hvYVxBZGRDaHV5ZW5LaG9hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/ChuyenKhoa/DetailChuyenKhoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuS2hvYVxEZXRhaWxDaHV5ZW5LaG9hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/ChuyenKhoa/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuS2hvYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/ChuyenKhoa/UpdateChuyenKhoa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1eWVuS2hvYVxVcGRhdGVDaHV5ZW5LaG9hLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/DiemThi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGllbVRoaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/HocSinh/AddHocSinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxBZGRIb2NTaW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/HocSinh/DetailHocSinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxEZXRhaWxIb2NTaW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/HocSinh/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/HocSinh/UpdateHocSinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxVcGRhdGVIb2NTaW5oLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/Login/LoginPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW5QYWdlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/MonHoc/AddMonHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXEFkZE1vbkhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/MonHoc/DetailMonHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXERldGFpbE1vbkhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/MonHoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/MonHoc/UpdateMonHoc.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXFVwZGF0ZU1vbkhvYy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Demo_ASP_MVC/QuanLyHocSinh_ASP_MVC_Demo/QuanLyHocSinh_ASP_MVC_Demo/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8ynszf6s2l
